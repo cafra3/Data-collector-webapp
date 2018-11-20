@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../static/main.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Collecting Heights</h1>
+    <h3>Please fill the entries to get population stats</h3>
+    <form action="{{url_for('success')}}" method="POST">
+      <input title="Your email will be safe with us" placeholder="Enter your email address" type="email" name="email_name" required><br>
+      <input title="Your data will be safe with us" placeholder="Enter your height in inches" type="number" min="24", max="96" name="height_name" required><br>
+      <button>Submit</button>
+    </form>
+  </div>
+</body>
+</html>
