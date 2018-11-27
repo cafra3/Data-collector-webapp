@@ -50,3 +50,9 @@ html, body {
   color:  #ff9999;
   transition: all 0.2s ease-in-out;
 }
+
+.message{
+  font: : 15px;
+  color: #ff9999;
+   font-family: Arial, sans-serif;
+}
